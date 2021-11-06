@@ -1,9 +1,15 @@
 {
   "name": "marioc.xyz",
+  "description": "decentralized web",
+  "version": "1.0.0",
   "private": true,
+  "author": "mariocxyz <hi@marioc.xyz>",
+  "repository": "git@github.com:mariocxyz/marioc.xyz.git",
   "scripts": {
     "dev": "next dev",
+    "prebuild": "next telemetry disable",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -22,5 +28,6 @@
     "eslint-config-prettier": "^8.3.0",
     "prettier": "^2.4.1",
     "typescript": "^4.4.4"
-  }
+  },
+  "license": "UNLICENSED"
 }
